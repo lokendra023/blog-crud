@@ -1,0 +1,17 @@
+<form class="signin-form" [formGroup]="signin_form">
+    <div>
+        <h2>Sign in</h2>
+
+        <div class="form-group">
+            <input type="email" class="form-control" formControlName="Email" value="" placeholder="Please enter your Email name"  required>
+        </div>
+
+        <div class="form-group">
+            <input type="password" class="form-control" formControlName="Password" value="" placeholder="Please enter your password" required>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" (click)="submit(signin_form)" class="form-control" value="Login">
+        </div>
+    </div>
+</form>

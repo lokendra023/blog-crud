@@ -1,8 +1,10 @@
 # blog-crud
 blog crud interview task
 
-1. Create and setup frontend and backend
+1. Setup frontend and backend
 2. Create Signup and login components
 3. Create Signup and login api's
-4. Create blog component
-5. Create blogs related api
+4. Added signup api only
+5. Create blog component
+6. Create component for user and admin dashboard
+7. Create blogs related api for creating and listing of api's
